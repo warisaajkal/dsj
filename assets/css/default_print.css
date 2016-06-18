@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* print css */
+body {
+	padding-top: 0 !important;
+}
+header {
+	margin-bottom: 0 !important;
+}
+.container {
+	width: 100% !important;
+}
+#wrapper.enlarged .content-page {
+	margin-left: 0;
+}
+.page-title {
+	text-align: center;
+}
+.panel-body {
+	padding: 0 !important;
+}
+.pashi-list td.c-title {
+	max-width: 180px !important;
+}
+.pashi-list td.td-6,
+.pashi-list td.td-7 {
+	min-width: 80px !important;
+}
+
+.pashi-list td.td-8 {
+	min-width: 100px !important;
+}

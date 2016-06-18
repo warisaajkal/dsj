@@ -1,0 +1,180 @@
+/* Write your custom CSS here */
+@font-face {
+    font-family: 'Bree Serif';
+    src: url('../fonts/breeserif-regular-webfont.eot');
+    src: url('../fonts/breeserif-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/breeserif-regular-webfont.woff2') format('woff2'),
+         url('../fonts/breeserif-regular-webfont.woff') format('woff'),
+         url('../fonts/breeserif-regular-webfont.ttf') format('truetype'),
+         url('../fonts/breeserif-regular-webfont.svg#bree_serifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nafees nastaleeq';
+    src: url('../urdu-fonts/nafees-nastaleeq-webfont.eot');
+    src: url('../urdu-fonts/nafees-nastaleeq-webfontd41d.eot?#iefix') format('embedded-opentype'),
+    url('../urdu-fonts/nafees-nastaleeq-webfont.woff') format('woff'),
+    url('../urdu-fonts/Nafees-Nastaleeq.ttf') format('truetype'),
+    url('../urdu-fonts/nafees-nastaleeq-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal ;
+}
+
+.urdu, .select-urdu {
+	font-family: 'Alvi Nastaleeq', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', 'Alvi Lahori Nastaleeq', 'nafees nastaleeq', 'Bree Serif', Helvetica, Arial, sans-serif;
+	text-align-last: center;
+}
+.urdu {
+	text-align: center;
+    height: auto;
+    line-height: 100%;
+    direction: rtl;
+}
+body {
+	background: #E2E7A4 url(../images/body-bg.jpg);
+    /* background-repeat: repeat-x; */
+}
+.header-default {
+	background: url(../images/header-bg.jpg);
+}
+.select-urdu option {
+	direction: rtl;
+}
+img {
+	max-width: 100%;
+}
+.center, th {
+	text-align: center;
+	
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+	vertical-align: middle;
+}
+.table-left th {
+	text-align: left;
+}
+.fd-logo {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.table-responsive .row {
+	margin-right: 0px;
+    margin-left: 0px;
+}
+#wrapper.enlarged #sidebar-menu ul ul ul {
+    margin-left: -4px;
+}
+.table > thead > tr > th {
+    vertical-align: middle;
+    text-align: center;
+}
+.table.pashi-list tr td span.eng {
+	direction: ltr;
+}
+.card-box-add-btn {
+	display: inline-block;
+}
+.custom-box {
+    border: 1px solid #9E9E9E;
+    height: auto;
+   /*  display: inline-block !important; */
+}
+.container .row.f-home {
+	margin-right: -15px;
+    margin-left: -15px;
+}
+
+.sidebar-right > .row {
+	background: #ffffff;
+    padding: 10px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+    box-shadow: 0 1px 6px 0px rgba(0, 0, 0, 0.5);
+}
+.sidebar-right .search-case,
+.sidebar-right .view-cause-list,
+.sidebar-right .news-section,
+.content-img.banner-img {
+	border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
+.gal-detail.thumb:hover {
+    outline: 1px solid rgba(0,0,0,0.1) !important;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+.carousel-caption p {
+	background-color: rgba(130, 130, 130, 0.5);
+    display: inline-block;
+    padding: 0px 10px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.width-30 {
+	
+}
+/* News Section */
+.newstape {
+  height: 300px;
+  overflow: hidden;
+}
+.newstape-content {
+  position: relative;
+}
+.newstape-drag { cursor: ns-resize; }
+/* end news section */
+footer {
+	padding: 10px 0;
+	background: #175697;
+}
+/* Start Navigation */
+.navbar {
+	min-height: 40px;
+}
+.navbar-inverse,header .top-menu {
+    background-color: #175697;
+    border-color: #003366;
+}
+header .top-menu .nav > li > a{
+	line-height: 30px;
+}
+.navbar-brand {
+    height: 40px;
+    padding: 10px 15px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #D4D4D4;
+}
+.dropdown-menu>li>a {
+	padding: 10px 20px;
+}
+.navbar-inverse .navbar-brand.active,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+	color:#ffffff;
+	background: #002952;
+}
+.navbar-inverse .navbar-brand {
+    color:#ffffff;
+}
+.top-menu .label {
+	line-height: 30px;
+    font-size: 12px;
+}
+/* End Navigation */
+@media (min-width: 768px) {
+ .navbar {
+    border-radius: 0;
+ }
+}

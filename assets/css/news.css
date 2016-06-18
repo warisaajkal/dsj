@@ -1,0 +1,10 @@
+
+.newstape {
+  height: 300px;
+  overflow: hidden;
+}
+
+.newstape-content {
+  position: relative;
+}
+.newstape-drag { cursor: ns-resize; }

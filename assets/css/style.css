@@ -1,0 +1,109 @@
+/* Write your custom CSS here */
+@font-face {
+    font-family: 'Bree Serif';
+    src: url('../fonts/breeserif-regular-webfont.eot');
+    src: url('../fonts/breeserif-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/breeserif-regular-webfont.woff2') format('woff2'),
+         url('../fonts/breeserif-regular-webfont.woff') format('woff'),
+         url('../fonts/breeserif-regular-webfont.ttf') format('truetype'),
+         url('../fonts/breeserif-regular-webfont.svg#bree_serifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nafees nastaleeq';
+    src: url('../urdu-fonts/nafees-nastaleeq-webfont.eot');
+    src: url('../urdu-fonts/nafees-nastaleeq-webfontd41d.eot?#iefix') format('embedded-opentype'),
+    url('../urdu-fonts/nafees-nastaleeq-webfont.woff') format('woff'),
+    url('../urdu-fonts/Nafees-Nastaleeq.ttf') format('truetype'),
+    url('../urdu-fonts/nafees-nastaleeq-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal ;
+}
+/* core css */
+.container {
+	width: auto;
+}
+a.logo span {
+    color: #5fbeaa;
+    font-style: italic;
+}
+.content-page {
+  margin-left: 240px;
+  overflow: hidden;
+}
+.content-page > .content {
+  margin-bottom: 60px;
+  margin-top: 60px;
+  padding: 20px 5px 15px 5px;
+}
+/* Footer */
+footer {
+  padding: 20px 30px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 240px;
+}
+.nav > li > a {
+	line-height: 60px;
+}
+/* end core css */
+.urdu, .select-urdu {
+	font-family: 'Alvi Nastaleeq', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', 'Alvi Lahori Nastaleeq', 'nafees nastaleeq', 'Bree Serif', Helvetica, Arial, sans-serif;
+	text-align-last: center;
+}
+.urdu {
+	text-align: center;
+    height: auto;
+    line-height: 100%;
+    direction: rtl;
+}
+.select-urdu option {
+	direction: rtl;
+}
+.center, th {
+	text-align: center;
+	
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+	vertical-align: middle;
+}
+.table-left th {
+	text-align: left;
+}
+.table.pashi-list tr td span.eng {
+	direction: ltr;
+}
+.p-r-10 {
+	padding-right: 10px !important;
+}
+.p-l-10 {
+	padding-left: 10px !important;
+}
+.table-responsive .row {
+	margin-right: 0px;
+    margin-left: 0px;
+}
+#wrapper.enlarged #sidebar-menu ul ul ul {
+    margin-left: -4px;
+}
+.table > thead > tr > th {
+    vertical-align: middle;
+    text-align: center;
+}
+.card-box-add-btn {
+	display: inline-block;
+}
+.custom-box {
+    border: 1px solid #9E9E9E;
+    height: auto;
+}
+.gal-detail.thumb:hover {
+    outline: 1px solid rgba(0,0,0,0.1) !important;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+#codeigniter_profiler {
+	margin-left: 70px;
+}
